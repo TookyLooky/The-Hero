@@ -1,4 +1,4 @@
-import { Input } from "./scripts/input.js";
+import { Input } from "/scripts/input.js";
 import { Hero } from "/scripts/hero.js";
 import { World } from "/scripts/world.js";
 
@@ -79,6 +79,7 @@ window.addEventListener('load' , function(){
     }
 
     requestAnimationFrame(animate);
+
 
 
 
