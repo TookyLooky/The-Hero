@@ -1,6 +1,6 @@
-import { Input } from "/scripts/input.js";
-import { Hero } from "/scripts/hero.js";
-import { World } from "/scripts/world.js";
+import { Input } from "../The-Hero/scripts/input.js";
+import { Hero } from "../The-Hero/scripts/hero.js";
+import { World } from "../The-Hero/scripts/world.js";
 
 export const TILE_SIZE = 32;
 export const COLS = 15;
@@ -87,3 +87,4 @@ window.addEventListener('load' , function(){
 
 
 })
+
